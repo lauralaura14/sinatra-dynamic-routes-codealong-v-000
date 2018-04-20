@@ -25,5 +25,6 @@ class App < Sinatra::Base
     @num_1 = @num_1.to_i
     @num_2 = @num_2.to_i
     @result = @num_1 * @num_2
+    "@result"
   end
 end
